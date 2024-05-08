@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan+SC&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./ASSETS/CSS/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.designmantic.com/logo-images/7395.png?company=Company%20Name&keyword=tea&slogan=&verify=1" alt="Logo" height="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner-->
+    <div id="banner" class="banner d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-2 text-white fw-bold">THE TASTE-TEA</h1>
+                    <p class="text-white">"Tea, though ridiculed by those who are naturally coarse in their nervous sensibilities, will always be the favorite beverage of the intellectual."
+                    </p>
+                    <a href="#work" class="btn btn-brand">See More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About section-->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-right"> <!-- Added text-center class -->
+                    <img src="https://th.bing.com/th/id/OIP.cBH3um8IJLlWMRpCdvrLmQAAAA?rs=1&pid=ImgDetMain"
+                        alt="image of the artist" class="img-fluid">
+
+                </div>
+                <div class="col-lg-6 text-lg-start text-center">
+                    <h6 class="display-4">Coffee</h6>
+                    <h2 class="h4 text-light pb-2">Beverage brewed from the roasted and ground seeds of the tropical
+                        evergreen coffee plants of African origin.
+                        Coffee is one of the three most popular beverages in the world (alongside water and tea) and one
+                        of the most profitable
+                        international commodities. Though coffee is the basis for an endless array of beverages,
+                        including espresso,
+                        cappuccinos, mochas, and lattes, its popularity is mainly attributed to its invigorating effect,
+                        which is produced by
+                        caffeine, an alkaloid present in coffee.</p>
+                        <a href="about.html" class="btn btn-brand mt-3">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services section-->
+    <section id="services">
+        <div class="container">
+            <div class="pb-5 text-center">
+                <h3 class="display-2 fw-bold">Services</h3>
+                <p>Sometimes, a cup of coffee is all you need to start your day off right. Whether it’s to prepare
+                    yourself for the challenges ahead, to take a break from work, or just to relax by the window with a
+                    good book at the ready, coffee can make everything feel just right.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card p-3" style="width: 22rem;">
+                        <img src="data:image/jpeg;base64,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"
+                            class="card-img-top icon-box-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">LATTE</h5>
+                            <p class="card-text">In English, is a coffee drink of Italian origin made with espresso and
+                                steamed milk, traditionally served in a glass. LA latte or caffè latte is a milk coffee
+                                that is a made up of one or two shots of espresso, steamed milk and a final,
+                                thin layer of frothed milk on top.</p>
+                            <p class="card-text">The latte aren’t very clear as people have been combining coffee and
+                                milk for centuries. However, the silky beverage
+                                that we know and love today is thought to originate in America, hitting the peak of
+                                popularity in Seattle during the
+                                80’s.</p>
+                            <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card p-3" style="width: 22rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWTVN5f7x9bpJY41E89FZDVSMyRwEovgvUDw&usqp=CAU"
+                            class="card-img-top icon-box-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">ESPRESSO</h5>
+                            <p class="card-text">The espresso was invented in Italy, around 100 years ago, and is
+                                credited to a man by the name of Luigi Bezzera, from
+                                Milan. He was the first to use a steam-pressure method of brewing coffee, which produced
+                                a strong cup of coffee faster
+                                than ever before. In fact, the name "caffé espresso" translates to "pressed out coffee",
+                                referring to the water being
+                                pushed through the finely ground coffee at a very high pressure. By the 1940s, the
+                                process of making espresso had been
+                                properly fine-tuned, creating the espresso known and used cross the world.</p>
+                            <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card p-3" style="width: 22rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRaJpT8qPCHIUSBqIOh16Xpp6ObAxEVhJpg&usqp=CAU"
+                            class="card-img-top icon-box-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">ICED AMERICANO</h5>
+                            <P class="card-text">Traditional Iced Americano is made by pouring cold water, over ice
+                                followed by shots of espresso. With manual pour over,
+                                the coffee drains directly onto the cold water and ice, so it chills during brewing.</P>
+                            <p class="card-text">The americano finds its origins in World War II. Interestingly,
+                                American soldiers stationed in Italy didn't care for the
+                                very strong espresso that was favoured in the country, therefore they tried to recreate
+                                their beloved drip coffee from
+                                back home by adding water to the espresso shot.</p>
+                            <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action -->
+    <section id="cta">
+        <div class="cta d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="display-4 text-white fw-bold">What are you waiting for? Order Now</h1>
+                        <p class="text-white">“Espresso yourself!”
+                        </p>
+                        <a href="#work" class="btn btn-brand">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----Reviews-->
+    <section id="reviews">
+        <div class="container-lg">
+            <div class="row text-right">
+                <div class="col-lg-12">
+                    <h2 class="display-2 text-body">Reviews</h2>
+                    <p class="text-body">“This coffee shop has it all. The ambiance, interior designs, good coffee,
+                        tasty foods, and fast Wi-Fi connection.
+                        Prices are a bit high, but once you taste it, you understand why.” ☕</p>
+                </div>
+            </div>
+            <!-----Reviews Cards-->
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="https://cdn-icons-png.flaticon.com/256/4825/4825112.png" alt="">
+                            <div class="ms-2 mb-2">
+                                <h5 class="text-light">Khaii</h5>
+                                <h6><a href="www.instagram.com" target="_blank">@itskhaii</a></h6>
+                            </div>
+                        </div>
+                        <p class="text-light">Hello darkness, my old friend.” Coffee has a friend in me. It’s that
+                            magical elixir that helps us face the day, even when we’re still half-asleep. 😴</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="https://cdn-icons-png.flaticon.com/256/8526/8526401.png" alt="">
+                            <div class="ms-2 mb-2">
+                                <h5 class="text-light">johnjie</h5>
+                                <h6><a href="www.instagram.com" target="_blank">@johnjie12</a></h6>
+                            </div>
+                        </div>
+                        <p class="text-light">When you accidentally make a double shot of espresso instead of a single.”
+                            The struggle is real! But hey, at least
+                            you’ll be awake for the next three days. 🙃</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="https://cdn-icons-png.flaticon.com/256/4891/4891262.png" alt="">
+                            <div class="ms-2 mb-2">
+                                <h5 class="text-light">Marky</h5>
+                                <h6><a href="www.instagram.com" target="_blank">@marky_123</a></h6>
+                            </div>
+                        </div>
+                        <p class="text-light">I was so thirsty that time when I walk into this coffee shop and asks the
+                            barista, “How much for a cup of coffee?”
+                            The barista replies, “For you, it’s priceless!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="https://cdn-icons-png.flaticon.com/256/4683/4683591.png" alt="">
+                            <div class="ms-2 mb-2">
+                                <h5 class="text-light">David</h5>
+                                <h6><a href="www.instagram.com" target="_blank">@david_q</a></h6>
+                            </div>
+                        </div>
+                        <p class="text-light">“I tried their blueberry muffin, and it was like biting into a flavor
+                            black hole. The more I
+                            chewed, the less I tasted. By the end, I was convinced I’d discovered the secret to
+                            invisibility. Sadly, it only
+                            worked on taste buds.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="https://cdn-icons-png.flaticon.com/256/4954/4954412.png" alt="">
+                            <div class="ms-2 mb-2">
+                                <h5 class="text-light">Cj</h5>
+                                <h6><a href="www.instagram.com" target="_blank">@its_me_cj</a></h6>
+                            </div>
+                        </div>
+                        <p class="text-light">Their Wi-Fi password was a complex equation involving imaginary numbers,
+                            quantum mechanics, and
+                            the Fibonacci sequence. I spent an hour trying to crack it, only to realize that the real
+                            answer was ‘Buy more
+                            coffee, peasant!🔍📶</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="https://cdn-icons-png.flaticon.com/256/8685/8685966.png" alt="">
+                            <div class="ms-2 mb-2">
+                                <h5 class="text-light">celine</h5>
+                                <h6><a href="www.instagram.com" target="_blank">@kaye_celine</a></h6>
+                            </div>
+                        </div>
+                        <p class="text-light">I asked the barista for a decaf soy chai with extra foam. He closed his
+                            eyes, took a deep breath,
+                            and whispered, ‘The foam is within you.’ Then he handed me an empty cup. I’ve been pondering
+                            its existential meaning
+                            ever since.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FAQ Section-->
+    <section id="faq">
+        <div class="container">
+            <div class="faq-section">
+                <h2>Frequently Asked Question</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati vel
+                                    consequuntur et rem magni earum suscipit nisi
+                                    unde sint nobis eligendi eveniet illum, ad error explicabo doloremque delectus in
+                                    nemo?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure, facilis quae
+                                    suscipit quia, illo veniam molestias
+                                    doloremque, omnis earum cumque excepturi consequuntur minima magnam beatae autem
+                                    vel? Cupiditate, itaque.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloremque
+                                    laboriosam reprehenderit error nam! Labore
+                                    dignissimos expedita voluptatem, id atque saepe, molestiae, odit eum esse sit ipsa
+                                    voluptate vel non?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <Footer class="footer text-white" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 text-lg-start text-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3105/3105166.png" alt="Logo" height="60px">
+                    </a>
+                    <h5 class="mt-4">About Us</h5>
+                    <p>This coffee shop runs on love, laughter, and a whole lot of strong coffee.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-lg-start ps-lg-5 ps-0 text-center">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Services 1</a></li>
+                        <li><a href="#">Services 2</a></li>
+                        <li><a href="#">Services 3</a></li>
+                        <li><a href="#">Services 4</a></li>
+                        <li><a href="#">Services 5</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 text-lg-start text-center">
+                    <h5>Contact Us</h5>
+                    <p>Barangay Inapoy<br>Kabankalan City, Philippines</p>
+                    <p>Email:coffeetoy@gmail.com<br>Phone: 09128660506</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-lg-start text-center">
+                    <h5>Newsletter</h5>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" style="border-radius: 1px;" placeholder="Email"
+                                aria-label="email" aria-describeby="button-addon2">
+                            <button class="btn btn-outline-light" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </form>
+                    <p>Hey, while you’re here — be sure to subscribe to the Coffeetoy newsletter as well by
+                        clicking here.
+
+                        As a coffee lover, you know that a cup of coffee isn’t so simple — it’s an important, comforting
+                        part of your life, and it connects you to others around the world who are savoring their cup of
+                        Arabica roast as well. Subscribing to coffee newsletters allows you to feel close to coffee
+                        lovers everywhere, no matter how far apart you may be. </p>
+                </div>
+            </div>
+        </div>
+    </Footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
